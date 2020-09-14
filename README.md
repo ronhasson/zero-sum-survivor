@@ -1,1 +1,1 @@
-# zero-sum-survivor
+# הישרדות - סכום אפס
