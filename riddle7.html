@@ -8,10 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <script type="text/javascript" src="a_data/dummy.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="a_data/result-light.css">
-
+  <link rel="stylesheet" href="style.css">  
 
   <style id="compiled-css" type="text/css">
       body {
@@ -153,20 +150,6 @@ window.onload = function () {
 
 
   //]]></script>
-
-  <script>
-    // tell the embed parent frame the height of the content
-    if (window.parent && window.parent.parent){
-      window.parent.parent.postMessage(["resultsFrame", {
-        height: document.body.getBoundingClientRect().height,
-        slug: "wr1ua0db"
-      }], "*")
-    }
-
-    // always overwrite window.name, in case users try to set it manually
-    window.name = "result"
-  </script>
-
 
 
 
