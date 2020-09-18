@@ -1,116 +1,136 @@
 <!DOCTYPE html>
-<html dir="rtl"><head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <title></title>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta name="robots" content="noindex, nofollow">
-  <meta name="googlebot" content="noindex, nofollow">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<html dir="rtl">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title></title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="googlebot" content="noindex, nofollow">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <link rel="stylesheet" href="style.css">  
+	<link rel="stylesheet" href="style.css">
 
 
 </head>
+
 <body>
-    
-    <div id="time">10:00</div>
-    <div id="title">חידה 7</div>
-    <div id="riddle">
-	בעוד חצי דקה תופיע רשימה של ארבעים מילים למשך חצי דקה.
-	עליכם לשנן כמה שיותר מילים מהרשימה.<br>
-	לאחר שהמילים ייעלמו, תוכלו לשלוח אותן. כל מילה נכונה מזכה בנקודה וכל מילה שגויה מורידה נקודה.<br>
-	מי שיהיו לו הכי הרבה נקודות יזכה בחידה.<br><br>
-	<table id="tbl">
-	<tr>
-	<td>קוף</td>
-	<td>אבן</td>
-	<td>שינוי</td>
-	<td>מאה</td>
-	<td>גדול</td>
-	<td>ישראל</td>
-	<td>חזון</td>
-	<td>גלשן</td>
-	</tr>
-	<tr>
-	<td>גיטרה</td>
-	<td>טעות</td>
-	<td>ביצה</td>
-	<td>הוקי</td>
-	<td>משפחה</td>
-	<td>קיפוד</td>
-	<td>תיאטרון</td>
-	<td>משקל</td>
-	</tr>
-	<tr>
-	<td>קו</td>
-	<td>התנדבות</td>
-	<td>היסטוריה</td>
-	<td>בריא</td>
-	<td>סגול</td>
-	<td>אחשוורוש</td>
-	<td>אוסף</td>
-	<td>ניצחון</td>
-	</tr>
-	<tr>
-	<td>קרואטיה</td>
-	<td>קיבוץ</td>
-	<td>נפוץ</td>
-	<td>נחש</td>
-	<td>שלטון</td>
-	<td>דוגמנית</td>
-	<td>נובמבר</td>
-	<td>נקי</td>
-	</tr>
-	<tr>
-	<td>תקווה</td>
-	<td>מצומצם</td>
-	<td>ארגנטינה</td>
-	<td>נציג</td>
-	<td>מזנון</td>
-	<td>נהר</td>
-	<td>יעד</td>
-	<td>נישואים</td>
-	</tr>
-	</table>
-	  </div>
-    <script type="text/javascript">//<![CDATA[
 
+	<div id="time">10:00</div>
+	<div id="title">חידה 7</div>
+	<div id="riddle">
+		בעוד חצי דקה תופיע רשימה של ארבעים מילים למשך חצי דקה.
+		עליכם לשנן כמה שיותר מילים מהרשימה.<br>
+		לאחר שהמילים ייעלמו, תוכלו לשלוח אותן. כל מילה נכונה מזכה בנקודה וכל מילה שגויה מורידה נקודה.<br>
+		מי שיהיו לו הכי הרבה נקודות יזכה בחידה.<br><br><br><br>
+		<table id="tbl">
+			<tr>
+				<td>קוף</td>
+				<td>אבן</td>
+				<td>שינוי</td>
+				<td>מאה</td>
+				<td>גדול</td>
+				<td>ישראל</td>
+				<td>חזון</td>
+				<td>גלשן</td>
+			</tr>
+			<tr>
+				<td>גיטרה</td>
+				<td>טעות</td>
+				<td>ביצה</td>
+				<td>הוקי</td>
+				<td>משפחה</td>
+				<td>קיפוד</td>
+				<td>תיאטרון</td>
+				<td>משקל</td>
+			</tr>
+			<tr>
+				<td>קו</td>
+				<td>התנדבות</td>
+				<td>היסטוריה</td>
+				<td>בריא</td>
+				<td>סגול</td>
+				<td>אחשוורוש</td>
+				<td>אוסף</td>
+				<td>ניצחון</td>
+			</tr>
+			<tr>
+				<td>קרואטיה</td>
+				<td>קיבוץ</td>
+				<td>נפוץ</td>
+				<td>נחש</td>
+				<td>שלטון</td>
+				<td>דוגמנית</td>
+				<td>נובמבר</td>
+				<td>נקי</td>
+			</tr>
+			<tr>
+				<td>תקווה</td>
+				<td>מצומצם</td>
+				<td>ארגנטינה</td>
+				<td>נציג</td>
+				<td>מזנון</td>
+				<td>נהר</td>
+				<td>יעד</td>
+				<td>נישואים</td>
+			</tr>
+		</table>
+	</div>
+	<script type="text/javascript">
 
-function startTimer(duration, display) {
-    var timer = duration, minutes, seconds;
-    setInterval(function () {
-        minutes = parseInt(timer / 60, 10)
-        seconds = parseInt(timer % 60, 10);
+		var timer, minutes, seconds;
 
-        minutes = minutes < 10 ? "0" + minutes : minutes;
-        seconds = seconds < 10 ? "0" + seconds : seconds;
+		function startTimer(duration, display) {
+			timer = duration;
+			setInterval(function () {
+				minutes = parseInt(timer / 60, 10)
+				seconds = parseInt(timer % 60, 10);
 
-        display.textContent = minutes + ":" + seconds;
+				minutes = minutes < 10 ? "0" + minutes : minutes;
+				seconds = seconds < 10 ? "0" + seconds : seconds;
 
-        if (--timer < 0) {
-            timer = 0;
-        }
-		
-		if (timer === 569) {
-			document.getElementById("tbl").style = 'display: inline';
+				display.textContent = minutes + ":" + seconds;
+
+				if (--timer < 0) {
+					timer = 0;
+				}
+
+				if (timer == 572) {
+					document.getElementById("time").style.fontSize = "120px";
+					document.getElementById("time").style.marginTop = "70px";
+					document.getElementById("title").style.marginTop = "0px";
+				}
+
+				if (timer === 569) {
+					document.getElementById("tbl").style = 'display: inline';
+				}
+
+				if (timer === 539) {
+					document.getElementById("tbl").style = 'display: none';
+				}
+
+				if (timer === 538) {
+					document.getElementById("time").style.fontSize = "240px";
+					document.getElementById("time").style.marginTop = "100px";
+					document.getElementById("title").style.marginTop = "50px";
+				}
+
+			}, 1000);
 		}
-		
-		if (timer === 539) {
-			document.getElementById("tbl").style = 'display: none';
-		}
-    }, 1000);
-}
 
-window.onload = function () {
-    var timeInMinutes = 60 * 10,
-        display = document.querySelector('#time');
-    startTimer(timeInMinutes, display);
-};
+		window.onload = function () {
+			var timeInMinutes = 60 * 10,
+				display = document.querySelector('#time');
+			startTimer(timeInMinutes, display);
+		};
 
 
-  //]]></script>
+		//]]>
+	</script>
 
 
 
-</body></html>
+</body>
+
+</html>

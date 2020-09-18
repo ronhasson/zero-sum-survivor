@@ -2,6 +2,14 @@
     font-family: 'myRubik';
     src: url('Rubik-VariableFont_wght.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'CPrimeR';
+  src: url('CourierPrime-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'CPrimeB';
+  src: url('CourierPrime-Bold.ttf') format('truetype');
+}
 
 body {
     background-color: #000;
@@ -15,6 +23,7 @@ body {
     font-size: 240px;
     margin-top: 100px;
     transition: 1s ease-in-out;
+    font-family: CPrimeR;
   }
 
   #title {
@@ -38,9 +47,10 @@ body {
   
   table {
     margin: 0 auto;
+    font-size: 38px;
   }
 
   td {
-    padding: 5px;
-    width: 100px;
+    padding: 8px;
+    width: 149px;
   }
