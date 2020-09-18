@@ -58,3 +58,11 @@ body {
   p{
     font-size: 36px;
   }
+
+  #logo h1{
+    font-size: 14em;
+    margin: 5px auto;
+    line-height: 0.7em;
+    font-weight: lighter;
+    width: max-content;
+  }
